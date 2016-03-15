@@ -1,0 +1,311 @@
+/*Variables*/
+/*Mixins*/
+/*utilities*/
+.float-right {
+  float: right; }
+
+.float-left {
+  float: left; }
+
+.text-white {
+  color: #fff; }
+
+.text-black {
+  color: #000; }
+
+.inline-b {
+  display: inline-block; }
+
+/*Header*/
+header {
+  background-color: #27AD60;
+  padding: 30px; }
+
+nav ul {
+  margin-top: 10px;
+  font-weight: normal; }
+
+ul a {
+  padding-right: 15px;
+  color: #a5e7c0; }
+
+/*Banner*/
+#banner {
+  background-image: url("../img/carousel-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 20px; }
+
+#banner h1 {
+  text-transform: uppercase;
+  font-size: 6.3rem;
+  font-weight: 400; }
+#banner p {
+  font-size: 2.8rem;
+  font-weight: 300; }
+
+/*Color Palette*/
+#color-palette {
+  padding-top: 50px; }
+
+#color-palette h2 {
+  text-transform: uppercase;
+  font-size: 6.3rem;
+  font-weight: 400; }
+#color-palette hr {
+  width: 220px;
+  border-top: 1px solid #dfdfdf;
+  border-top: 1px solid #000 !important;
+  margin-bottom: 60px; }
+
+.color-box {
+  margin-bottom: 10px;
+  width: 100%; }
+
+.color-box .color1 {
+  background-color: #69D2E7;
+  padding: 0 5% 9%;
+  margin-right: -5px;
+  display: inline-block; }
+.color-box .color2 {
+  background-color: #A7DBDB;
+  padding: 0 5% 9%;
+  margin-right: -5px;
+  display: inline-block; }
+.color-box .color3 {
+  background-color: #E0E4CC;
+  padding: 0 5% 9%;
+  margin-right: -5px;
+  display: inline-block; }
+.color-box .color4 {
+  background-color: #F38630;
+  padding: 0 5% 9%;
+  margin-right: -5px;
+  display: inline-block; }
+.color-box .color5 {
+  background-color: #FA6900;
+  padding: 0 5% 9%;
+  margin-right: -5px;
+  display: inline-block; }
+.color-box .color6 {
+  background-color: #E94C6F;
+  padding: 0 5% 9%;
+  margin-right: -5px;
+  display: inline-block; }
+.color-box .color7 {
+  background-color: #542733;
+  padding: 0 5% 9%;
+  margin-right: -5px;
+  display: inline-block;
+  color: #fff; }
+.color-box .color8 {
+  background-color: #5A6A62;
+  padding: 0 5% 9%;
+  margin-right: -5px;
+  display: inline-block; }
+.color-box .color9 {
+  background-color: #C6D5CD;
+  padding: 0 5% 9%;
+  margin-right: -5px;
+  display: inline-block; }
+.color-box .color10 {
+  background-color: #FDF200;
+  padding: 0 5% 9%;
+  margin-right: -5px;
+  display: inline-block; }
+.color-box .color11 {
+  background-color: #DB3340;
+  padding: 0 5% 9%;
+  margin-right: -5px;
+  display: inline-block; }
+.color-box .color12 {
+  background-color: #E8B71A;
+  padding: 0 5% 9%;
+  margin-right: -5px;
+  display: inline-block; }
+.color-box .color13 {
+  background-color: #F7EAC8;
+  padding: 0 5% 9%;
+  margin-right: -5px;
+  display: inline-block; }
+.color-box .color14 {
+  background-color: #1FDA9A;
+  padding: 0 5% 9%;
+  margin-right: -5px;
+  display: inline-block; }
+.color-box .color15 {
+  background-color: #28ABE3;
+  padding: 0 5% 9%;
+  margin-right: -5px;
+  display: inline-block; }
+.color-box .color16 {
+  background-color: #588C73;
+  padding: 0 5% 9%;
+  margin-right: -5px;
+  display: inline-block; }
+.color-box .color17 {
+  background-color: #F2E394;
+  padding: 0 5% 9%;
+  margin-right: -5px;
+  display: inline-block; }
+.color-box .color18 {
+  background-color: #F2AE72;
+  padding: 0 5% 9%;
+  margin-right: -5px;
+  display: inline-block; }
+.color-box .color19 {
+  background-color: #D96459;
+  padding: 0 5% 9%;
+  margin-right: -5px;
+  display: inline-block; }
+.color-box .color20 {
+  background-color: #8C4646;
+  padding: 0 5% 9%;
+  margin-right: -5px;
+  display: inline-block; }
+.color-box .color21 {
+  background-color: #D0C91F;
+  padding: 0 5% 9%;
+  margin-right: -5px;
+  display: inline-block; }
+.color-box .color22 {
+  background-color: #85C4B9;
+  padding: 0 5% 9%;
+  margin-right: -5px;
+  display: inline-block; }
+.color-box .color23 {
+  background-color: #008BBA;
+  padding: 0 5% 9%;
+  margin-right: -5px;
+  display: inline-block; }
+.color-box .color24 {
+  background-color: #DF514C;
+  padding: 0 5% 9%;
+  margin-right: -5px;
+  display: inline-block; }
+.color-box .color25 {
+  background-color: #DC403B;
+  padding: 0 5% 9%;
+  margin-right: -5px;
+  display: inline-block; }
+
+h2 {
+  text-transform: uppercase;
+  font-size: 6.3rem;
+  font-weight: 400; }
+
+hr {
+  width: 220px;
+  border-top: 1px solid #dfdfdf; }
+
+.descrip {
+  color: #dadada;
+  font-weight: 300; }
+
+/*About Us*/
+#about-us {
+  background-color: #2C3E50;
+  padding: 70px 0; }
+
+#about-us .row {
+  margin-top: 70px; }
+#about-us p {
+  font-size: 1.7rem;
+  font-weight: 300; }
+#about-us img {
+  width: 100%; }
+#about-us .progress-box {
+  margin-top: 100px; }
+#about-us .progress {
+  height: 12px;
+  border-radius: 0px;
+  background-color: #DCD5D5;
+  margin-bottom: 5px; }
+#about-us .progress-bar {
+  background-color: #E67E22;
+  border: 2px solid #DCD5D5; }
+
+.progress-box p {
+  margin-bottom: 20px; }
+
+/*Wwhat we do*/
+#what-we-do {
+  background-color: #27AD60;
+  padding: 70px 0; }
+
+.btn {
+  background-color: #443E44;
+  color: #fff; }
+
+#what-we-do .row {
+  margin-top: 100px; }
+#what-we-do h3 {
+  margin: 30px 0; }
+#what-we-do .hire-btn {
+  text-transform: uppercase;
+  margin-top: 70px;
+  font-size: 1.6rem; }
+
+.services-box p {
+  width: 65%;
+  margin: auto;
+  color: #b1b2b3;
+  font-weight: 300; }
+
+/*Team*/
+#team {
+  background-color: #27AD60;
+  padding: 70px 0; }
+
+#team .row {
+  margin-top: 100px; }
+#team img {
+  margin: auto; }
+#team h4 {
+  margin: 25px auto;
+  font-size: 2.3rem;
+  font-weight: 300; }
+#team .charge-box {
+  color: #b1b2b3;
+  width: 73%;
+  font-weight: 300;
+  padding: 30px 0;
+  margin: auto;
+  border-top: 1px dotted #919191; }
+#team i {
+  color: #b1b2b3;
+  font-size: 2rem;
+  margin-right: 10px; }
+
+/*Price*/
+#price {
+  background-color: #2C3E50;
+  padding: 70px 0; }
+
+/*Clients*/
+#clients {
+  background-color: #2C3E50;
+  padding: 70px 0; }
+
+.client-box {
+  margin-top: 70px; }
+
+.client-box .client-text {
+  color: #dadada;
+  font-weight: 300;
+  font-size: 1.8rem;
+  width: 60%;
+  margin: auto; }
+.client-box .orange-text {
+  color: #E67E22;
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 50px; }
+
+/*Get In touch*/
+#touch {
+  background-color: #2C3E50;
+  padding: 70px 0; }
+
+/*# sourceMappingURL=main.css.map */

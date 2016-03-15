@@ -1,0 +1,424 @@
+/*Variables*/
+
+$green :#27AD60;
+$blue: #2C3E50;
+$dark-orange: #CA7428;
+$light-orange: #E67E22;
+$grey: #b1b2b3;
+
+/*Mixins*/
+
+@mixin uppercase {
+    text-transform: uppercase;
+    font-size: 6.3rem;
+    font-weight: 400;
+}
+
+@mixin padding-margin-ib {
+    padding: 0 5% 9%;
+    margin-right: -5px;
+    display: inline-block;
+}
+
+@mixin padding {
+    padding: 70px 0;
+}
+
+@mixin hr {
+    width: 220px;
+    border-top: 1px solid #dfdfdf;
+}
+
+@mixin btn {
+    background-color: #443E44;
+    color: #fff;
+}
+
+/*utilities*/
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-black {
+    color: #000;
+}
+
+.inline-b {
+    display: inline-block;
+}
+
+/*Header*/
+
+header {
+    background-color: $green;
+    padding: 30px;
+}
+
+nav {
+    ul {
+        margin-top: 10px;
+        font-weight: normal;
+    }
+}
+
+ul {
+    a {
+        padding-right: 15px;
+        color: #a5e7c0;
+    }
+}
+
+/*Banner*/
+
+#banner {
+    background-image: url("../img/carousel-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+#banner {
+    h1 {
+        @include uppercase;
+    }
+
+    p {
+        font-size: 2.8rem;
+        font-weight: 300;
+    }
+}
+
+/*Color Palette*/
+
+#color-palette {
+    padding-top: 50px;
+}
+
+#color-palette {
+    h2 {
+        @include uppercase;
+    }
+
+    hr {
+        @include hr;
+        border-top: 1px solid #000 !important;
+        margin-bottom: 60px;
+    }
+}
+
+.color-box {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.color-box {
+    .color1 {
+        background-color: #69D2E7;
+        @include padding-margin-ib;
+    }
+
+    .color2 {
+        background-color: #A7DBDB;
+        @include padding-margin-ib;
+    }
+
+    .color3 {
+        background-color: #E0E4CC;
+        @include padding-margin-ib;
+    }
+
+    .color4 {
+        background-color: #F38630;
+        @include padding-margin-ib;
+    }
+
+    .color5 {
+        background-color: #FA6900;
+        @include padding-margin-ib;
+    }
+
+    .color6 {
+        background-color: #E94C6F;
+        @include padding-margin-ib;
+    }
+
+    .color7 {
+        background-color: #542733;
+        @include padding-margin-ib;
+        color: #fff;
+    }
+
+    .color8 {
+        background-color: #5A6A62;
+        @include padding-margin-ib;
+    }
+
+    .color9 {
+        background-color: #C6D5CD;
+        @include padding-margin-ib;
+    }
+
+    .color10 {
+        background-color: #FDF200;
+        @include padding-margin-ib;
+    }
+
+    .color11 {
+        background-color: #DB3340;
+        @include padding-margin-ib;
+    }
+
+    .color12 {
+        background-color: #E8B71A;
+        @include padding-margin-ib;
+    }
+
+    .color13 {
+        background-color: #F7EAC8;
+        @include padding-margin-ib;
+    }
+
+    .color14 {
+        background-color: #1FDA9A;
+        @include padding-margin-ib;
+    }
+
+    .color15 {
+        background-color: #28ABE3;
+        @include padding-margin-ib;
+    }
+
+    .color16 {
+        background-color: #588C73;
+        @include padding-margin-ib;
+    }
+
+    .color17 {
+        background-color: #F2E394;
+        @include padding-margin-ib;
+    }
+
+    .color18 {
+        background-color: #F2AE72;
+        @include padding-margin-ib;
+    }
+
+    .color19 {
+        background-color: #D96459;
+        @include padding-margin-ib;
+    }
+
+    .color20 {
+        background-color: #8C4646;
+        @include padding-margin-ib;
+    }
+
+    .color21 {
+        background-color: #D0C91F;
+        @include padding-margin-ib;
+    }
+
+    .color22 {
+        background-color: #85C4B9;
+        @include padding-margin-ib;
+    }
+
+    .color23 {
+        background-color: #008BBA;
+        @include padding-margin-ib;
+    }
+
+    .color24 {
+        background-color: #DF514C;
+        @include padding-margin-ib;
+    }
+
+    .color25 {
+        background-color: #DC403B;
+        @include padding-margin-ib;
+    }
+
+}
+
+h2 {
+    @include uppercase;
+}
+
+hr {
+    @include hr;
+}
+
+.descrip {
+    color: #dadada;
+    font-weight: 300;
+}
+
+/*About Us*/
+
+#about-us {
+    background-color: $blue;
+    @include padding;
+}
+
+#about-us {
+    .row {
+        margin-top: 70px;
+    }
+
+    p {
+        font-size: 1.7rem;
+        font-weight: 300;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .progress-box {
+        margin-top: 100px;
+    }
+
+    .progress {
+        height: 12px;
+        border-radius: 0px;
+        background-color: #DCD5D5;
+        margin-bottom: 5px;
+    }
+
+    .progress-bar {
+        background-color: $light-orange;
+        border: 2px solid #DCD5D5;
+    }
+}
+
+.progress-box {
+    p {
+        margin-bottom: 20px;
+    }
+}
+
+/*Wwhat we do*/
+
+#what-we-do {
+    background-color: $green;
+    @include padding;
+}
+
+.btn {
+    @include btn;
+}
+
+#what-we-do {
+    .row {
+        margin-top: 100px;
+    }
+
+    h3 {
+        margin: 30px 0;
+    }
+
+    .hire-btn {
+        text-transform: uppercase;
+        margin-top: 70px;
+        font-size: 1.6rem;
+    }
+}
+
+.services-box {
+    p {
+        width: 65%;
+        margin: auto;
+        color: $grey;
+        font-weight: 300;
+    }
+}
+
+/*Team*/
+
+#team {
+    background-color: $green;
+    @include padding;
+}
+
+#team {
+    .row {
+        margin-top: 100px;
+    }
+
+    img {
+        margin: auto;
+    }
+
+    h4 {
+        margin: 25px auto;
+        font-size: 2.3rem;
+        font-weight: 300;
+    }
+
+    .charge-box {
+        color: $grey;
+        width: 73%;
+        font-weight: 300;
+        padding: 30px 0;
+        margin: auto;
+        border-top: 1px dotted rgb(145, 145, 145);
+    }
+
+    i {
+        color: $grey;
+        font-size: 2rem;
+        margin-right: 10px;
+    }
+}
+
+/*Price*/
+
+#price {
+    background-color: $blue;
+    @include padding;
+}
+
+/*Clients*/
+
+#clients {
+    background-color: $blue;
+    @include padding;
+}
+
+.client-box {
+    margin-top: 70px;
+}
+
+.client-box {
+    .client-text {
+        color: #dadada;
+        font-weight: 300;
+        font-size: 1.8rem;
+        width: 60%;
+        margin: auto;
+    }
+
+    .orange-text {
+        color: $light-orange;
+        font-size: 1.8rem;
+        font-weight: 300;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+}
+
+/*Get In touch*/
+
+#touch {
+    background-color: $blue;
+    @include padding;
+}
