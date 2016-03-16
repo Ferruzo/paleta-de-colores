@@ -120,131 +120,110 @@ ul {
     width: 100%;
 }
 
+.common-color-box {
+    @include padding-margin-ib;
+}
+
 .color-box {
     .color1 {
         background-color: #69D2E7;
-        @include padding-margin-ib;
     }
 
     .color2 {
         background-color: #A7DBDB;
-        @include padding-margin-ib;
     }
 
     .color3 {
         background-color: #E0E4CC;
-        @include padding-margin-ib;
     }
 
     .color4 {
         background-color: #F38630;
-        @include padding-margin-ib;
     }
 
     .color5 {
         background-color: #FA6900;
-        @include padding-margin-ib;
     }
 
     .color6 {
         background-color: #E94C6F;
-        @include padding-margin-ib;
     }
 
     .color7 {
         background-color: #542733;
-        @include padding-margin-ib;
         color: #fff;
     }
 
     .color8 {
         background-color: #5A6A62;
-        @include padding-margin-ib;
     }
 
     .color9 {
         background-color: #C6D5CD;
-        @include padding-margin-ib;
     }
 
     .color10 {
         background-color: #FDF200;
-        @include padding-margin-ib;
     }
 
     .color11 {
         background-color: #DB3340;
-        @include padding-margin-ib;
     }
 
     .color12 {
         background-color: #E8B71A;
-        @include padding-margin-ib;
     }
 
     .color13 {
         background-color: #F7EAC8;
-        @include padding-margin-ib;
     }
 
     .color14 {
         background-color: #1FDA9A;
-        @include padding-margin-ib;
     }
 
     .color15 {
         background-color: #28ABE3;
-        @include padding-margin-ib;
     }
 
     .color16 {
         background-color: #588C73;
-        @include padding-margin-ib;
     }
 
     .color17 {
         background-color: #F2E394;
-        @include padding-margin-ib;
     }
 
     .color18 {
         background-color: #F2AE72;
-        @include padding-margin-ib;
     }
 
     .color19 {
         background-color: #D96459;
-        @include padding-margin-ib;
     }
 
     .color20 {
         background-color: #8C4646;
-        @include padding-margin-ib;
     }
 
     .color21 {
         background-color: #D0C91F;
-        @include padding-margin-ib;
     }
 
     .color22 {
         background-color: #85C4B9;
-        @include padding-margin-ib;
     }
 
     .color23 {
         background-color: #008BBA;
-        @include padding-margin-ib;
     }
 
     .color24 {
         background-color: #DF514C;
-        @include padding-margin-ib;
     }
 
     .color25 {
         background-color: #DC403B;
-        @include padding-margin-ib;
     }
 
 }
@@ -385,6 +364,38 @@ hr {
 #price {
     background-color: $blue;
     @include padding;
+    .row {
+        margin-top: 100px;
+    }
+}
+
+.boton-div {
+    margin-top: 50px;
+}
+
+.precio-box {
+    border: 1px solid $green;
+    font-weight: 300;
+    padding-bottom: 50px;
+    .main-text {
+        font-size: 2rem;
+        padding: 15px;
+    }
+    .precio {
+        background-color: $green;
+        margin-bottom: -10px;
+        padding: 15px;
+        .numero {
+            font-size: 4rem;
+        }
+    }
+    .brown {
+        background-color: #8F5F38;
+    }
+
+    .white {
+        background-color: #fff;
+    }
 }
 
 /*Clients*/
@@ -421,4 +432,110 @@ hr {
 #touch {
     background-color: $blue;
     @include padding;
+}
+
+.submit-btn {
+    background-color: #443E44;
+    border: none;
+    color: #fff;
+    margin-bottom: 10px;
+    width: 80px !important;
+    padding: 10px 20px;
+}
+
+#touch {
+    form {
+        margin: 50px auto;
+        width: 70%;
+    }
+
+    input {
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+
+    textarea {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+}
+
+form {
+    p {
+        font-weight: 300;
+    }
+}
+
+/* Social */
+
+#social {
+    background-image: url(../img/img-divider-img.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: repeat;
+    padding: 15% 0;
+    i {
+        font-size: 10rem;
+        color: #fff;
+        margin-right: 20px;
+    }
+}
+
+/* footer */
+
+footer {
+    background: $green;
+    padding: 10px;
+}
+
+.rights {
+    text-align: left;
+    width: 100%;
+    margin-top: 50px;
+}
+
+footer {
+    h5 {
+        font-size: 2rem;
+        font-weight: 300;
+    }
+
+    hr {
+        width: 100px;
+    }
+
+    p {
+        font-weight: 300;
+        width: 200px;
+        margin: auto;
+        line-height: 30px;
+        padding-left: 20px;
+    }
+
+    form {
+       position: relative;
+       width: 100%;
+       input {
+           padding-left: 8px;
+           margin-bottom: 20px;
+       }
+
+       button {
+           background-color: #443E44;
+           border: 1px solid #443E44;
+       }
+
+       i {
+           color: $light-orange;
+       }
+   }
+}
+
+.boton {
+    background-color: #443E44;
+    font-weight: 300;
+    padding: 10px;
 }
